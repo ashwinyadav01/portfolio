@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwin yadav portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+    
+        nav ul li a:hover {
+            color: rgb(166, 166, 200);
+        }
+
+        main hr {
+            border: o;
+            height: 1.2px;
+            margin: 40px 84px;
+            background: rgb(156, 152, 241);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 23px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+            margin: 80px 0;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(209, 173, 244);
+        }
+
+        #element {
+            color: rgb(209, 173, 244);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 1.4rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            align-items: center;
+            margin: 50px 120px;
+            padding: 50px;
+            margin-left: 200px;
+        }
+
+        .box {
+            width: 40%;
+            border: 3px solid white;
+            padding: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .box a {
+            text-decoration: underline;
+            color: white;
+            font-size: 125%;
+        }
+
+        .box p {
+            font-size: 125%;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .thirdSection h1 {
+            font-size: 1.4rem;
+        }
+
+        .fourthSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .fourthSection h1 {
+            font-size: 1.4rem;
+        }
+
+        footer {
+            background-color: #0E0E2D;
+            height: 250px;
+            padding: 100px;
+        }
+
+        .footer {
+            display: flex;
+            max-width: 80vw;
+            margin: auto;
+            justify-content: space-evenly;
+        }
+        .footer-second ul li p a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ashwin Yadav's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Ashwin</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What Have I Done So Far</span>
+            <h1>My Projects</h1>
+            <div class="container">
+                <div class="box">
+                    <img src="Disease.png" alt="diseases">
+                    <p><a href="https://github.com/ashwinyadav01/Multiple-Disease-prediction">Disease prediction</a></p>
+                </div>
+                <div class="box">
+                    <img src="Language.png" alt="Language">
+                    <p><a href="https://github.com/ashwinyadav01/Language-Translator">Language Translator</a></p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="thirdSection">
+            <span class="text-gray">What I have studied so Far</span>
+            <h1>My certifications</h1>
+            <div class="container">
+                <div class="box">
+                    <img src="artificial intelligence.jpeg" alt="">
+                    <p>Great Learning Introduction to AI</p>
+                </div>
+                <div class="box">
+                    <img src="UHV Certificate.png" alt="">
+                    <P>Universal Human Values</P>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="fourthSection">
+            <span class="text-gray">Practical training</span>
+            <h1>My internships</h1>
+            <div class="container">
+                <div class="box">
+                    <img src="Technohacks.png" alt="">
+                    <p>Technohacks Web Development</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+
+            <div class="footer-first">
+                <h3>Connect With Ashwin Yadav</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>
+                        <p>Github: <a href="https://github.com/" target="_blank">Github</a></p>
+                    </li>
+                    <li>
+                        <p>Linkedin: <a href="https://www.linkedin.com/in/ashwin-yadav-0a437b246/"
+                                target="_blank">Linkedin</a></p>
+                    </li>
+                    <li>
+                        <p>Instagram: <a href="https://www.instagram.com/_.ashwinyadav._/" target="_blank">Instagram</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Programmer', 'Video Editor', 'and UI/UX Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
